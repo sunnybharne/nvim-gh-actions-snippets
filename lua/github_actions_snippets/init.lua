@@ -8,6 +8,8 @@ function M.setup()
   -- Require and setup the on snippets
   require("github_actions_snippets.snippets.on_trigger")
 
+  require("github_actions_snippets.snippets.terraform-provider")
+
 end
 
 return M
